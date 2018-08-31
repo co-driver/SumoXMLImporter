@@ -14,7 +14,6 @@
 #include <algorithm>
 #include <iterator>
 #include <sstream>
-
 //#include "strtk.hpp"
 
 
@@ -53,10 +52,12 @@ void UActorComponent01::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 FText outError;
 int32 outErrorNum;
 
+
 bool UActorComponent01::loadxml()
 {
-	UE_LOG(LogEngine, Warning, TEXT("Lets Goooo"));
-	FString XML = "C:/Users/iparanja/net.net.xml";
+	
+	UE_LOG(LogEngine, Warning, TEXT("Starter location %s"), *(FPaths::ProjectDir()));
+	FString XML = FPaths::ProjectDir() + "net.net.xml";
 	bool success = FFastXml::ParseXmlFile((IFastXmlCallback*)this, XML.GetCharArray().GetData(), TEXT(""), nullptr, false, false, outError, outErrorNum);
 	return success;
 }
