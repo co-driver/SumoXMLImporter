@@ -4,7 +4,7 @@
 
 
 
-1. After cloning this repository, this project can be run directly by running the uproject file in the project directory. This project imports the "net.net.xml" file in the project directory. (This file was created using netgenerate(SUMO) with custom settings as shown here ![1](image1.png). Netedit screenshot of 'net.net.xml' is shown here ![2](image2.png)
+1. After cloning this repository, this project can be run directly by running the uproject file in the project directory. This project imports the "net.net.xml" file in the project directory. (This file was created using netgenerate(SUMO) with additional option to add diagonal lanes (added to the SUMO code) as shown here ![1](image1.png). Netedit screenshot of 'net.net.xml' is shown here ![2](image2.png)
 
   (a). On the Unreal editor, click on the floor in the viewport and delete it.
   (b). Drag one of the basic actors into the viewport from the 'modes' tab  (e.g. point light).
