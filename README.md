@@ -4,7 +4,7 @@
 
 
 
-1. After cloning this repository, this project can be run directly by running the uproject file in the project directory. This project imports the "net.net.xml" file in the project directory. (This file was created using netgenerate(SUMO) with custom settings as shown in ![1](image1.png). Netedit screenshot of 'net.net.xml' is shown in ![2](image2.png)).
+1. After cloning this repository, this project can be run directly by running the uproject file in the project directory. This project imports the "net.net.xml" file in the project directory. (This file was created using netgenerate(SUMO) with custom settings as shown here ![1](image1.png). Netedit screenshot of 'net.net.xml' is shown here ![2](image2.png)
 
   (a). On the Unreal editor, click on the floor in the viewport and delete it.
   (b). Drag one of the basic actors into the viewport from the 'modes' tab  (e.g. point light).
@@ -13,7 +13,7 @@
   (e). Click 'build' in the toolbar
   (f). Click 'Play'
   
-  You should see the edges spawned in the viewport according the SUMO XML File.
+  You should see the edges spawned in the viewport according the SUMO XML File.(Shown here ![3](image3.png)
 
 
 2. To view the files on Visual Studio, right-click on the .uproject file on the project directory and select 'Generate Visual Studio files'. This will generate the visual studio solution in the same directory. Open on visual studio.
