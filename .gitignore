@@ -1,6 +1,14 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+Binaries/*
+Intermediate/AssetRegistryCache/*
+Intermediate/ProjectFiles/*
+Intermediate/ReimportCache/*
+Intermediate/CachedAssetRegistry.bin
+Saved/*
+
+
 # Visual Studio 2015 database file
 *.VC.db
 
